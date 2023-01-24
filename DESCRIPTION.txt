@@ -1,0 +1,14 @@
+# Title: Software framework for the processing and statistical analysis of multivariate MS-data
+# Owner: Laboratory of Integrative Metabolomics (LIMET), Ghent university
+# Creator: Dr. Marilyn De Graeve
+# Maintainer: <limet@ugent.be>
+# Repository: Preprocessing_AIMS
+
+# Description: During the pre-processing, During the pre-processing, AIMS data are summarized into a feature matrix. Burn selection, m/z-interpolation, sample merging, feature detection (peak picking) and noise filtering are performed consecutively.
+# Input: 
+# -	Configuration.R
+# -	‘bio’ folder containing TXT files of samples
+# Output: 
+# -	VariableMetadata.txt
+# -	‘Scans’ folder containing plots/files from calculation steps (e.g. TIC chromatogram)
+# - The VariableMetadata.txt will also be saved in the Input folder for next steps in the R pipeline.
