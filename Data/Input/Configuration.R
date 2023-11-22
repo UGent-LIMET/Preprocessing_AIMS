@@ -21,7 +21,7 @@ POLARITY <- "negative" #{"positive", "negative"} #needed this format for annotat
 # only choose "both" when no pre-processing needed (eg. merge both ionisationmodes)
 USER_COMMENT <- "Tutorial comment" #Add info about experiment, eg. explain (Multiple)Comparisons, to include in reports
 
-RUN_PART_PREPROCEESSING <- DONT_RUN_CODE
+RUN_PART_PREPROCEESSING <- RUN_CODE
 
 #
 #####################
